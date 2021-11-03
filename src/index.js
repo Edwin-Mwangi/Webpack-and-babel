@@ -1,16 +1,13 @@
-const greet = (name) =>{
-    console.log(`hello ${name}`);
-}
+// import { getPremUsers } from './data';
+import {styleBody, addTitle, contact} from './dom';
+import anyName, {getPremUsers} from './data';
 
-greet('mario');
-greet('luigi');
-greet('damaged');
-greet('restored');
+console.log('index file');
 
-class User{
-    constructor(){
-        this.first = 1;
-    }
-}
+addTitle('test');
+styleBody();
+console.log(contact);
 
-User();
+
+const premUsers = getPremUsers(anyName);
+console.log(anyName, premUsers);
