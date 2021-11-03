@@ -1,0 +1,1 @@
+(()=>{const o=o=>{console.log(`hello ${o}`)};o("mario"),o("luigi"),o("damaged"),o("restored"),class{constructor(){this.first=1}}()})();
